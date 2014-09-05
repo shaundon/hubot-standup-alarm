@@ -1,0 +1,26 @@
+{
+	"name": "hubot-standup-alarm",
+	"version": "0.0.1",
+	"description": "Hubot script to remind teams to do their standups.",
+	"main": "index.js",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/shaundon/hubot-standup-alarm.git"
+	},
+	"keywords": [
+		"hubot",
+		"hubot-scripts",
+		"standup"
+	],
+	"dependencies": {
+	    "cron": "~1.0.4",
+	    "underscore": "~1.6.0"	
+    },
+	"author": "Shaun Donnelly <shaundonnelly@gmail.com>",
+	"licence" : "MIT",
+	"bugs": {
+        "url": "https://github.com/shaundon/hubot-standup-alarm/issues"
+  	},
+    "homepage": "https://github.com/shaundon/hubot-standup-alarm"
+}
