@@ -29,6 +29,30 @@ Currently, the time you specify must be the same timezone as the server Hubot re
 
 Standup reminders are sent using `robot.messageRoom`. Therefore, the room name needs to be saved correctly when a standup reminder is created. This was originally written for Hipchat, which retrieves the room from a message using `msg.envelope.user.reply_to`. You might need to change this if you're using a different adapter. You can find that part of the code around line 170, inside the `create standup` comand.
 
+## Installation via NPM
+
+Run the following command to install this module as a Hubot dependency
+
+```
+npm install hubot-standup-alarm --save
+```
+
+Confirm that hubot-standup-alarm appears as a dependency in your Hubot package.json file.
+
+```
+"dependencies": {
+  "hubot":              "2.x",
+  "hubot-scripts":      "2.x",
+  "hubot-standup-alarm": "1.0.x"
+}
+```
+
+To enable the script, add the hubot-standup-alarm entry to the external-scripts.json file (you may need to create this file).
+
+```
+  ["hubot-standup-alarm"]
+```
+
 ## Contributing
 
 Feel free! Send a pull request :)
