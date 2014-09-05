@@ -43,7 +43,7 @@ Confirm that hubot-standup-alarm appears as a dependency in your Hubot package.j
 "dependencies": {
   "hubot":              "2.x",
   "hubot-scripts":      "2.x",
-  "hubot-standup-alarm": "1.0.x"
+  "hubot-standup-alarm": "0.0.1"
 }
 ```
 
